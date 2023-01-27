@@ -22,12 +22,14 @@
         
     <!-- Replace some repos -->
     <remove-project name="android_hardware_lineage_compat" />
-    <project path="hardware/lineage/compat" name="hardware_lineage_compat.git" remote="ac" revision="lineage-20.0" />
+    <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="ac" revision="lineage-20.0" />
     <remove-project name="android_hardware_qcom_wlan" />
-    <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan.git" remote="pe" revision="thirteen" />
+    <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pe" revision="thirteen" />
     <remove-project name="platform/system/libhidl" />
-    <project path="system/libhidl" name="android_system_libhidl.git" remote="Lin" revision="lineage-20.0" groups="pdk" />
+    <project path="system/libhidl" name="android_system_libhidl" remote="Lin" revision="lineage-20.0" groups="pdk" />
     <remove-project name="platform_vendor_bliss" />
-    <project path="vendor/bliss" name="platform_vendor_bliss.git" remote="ac" revision="typhoon" />
+    <project path="vendor/bliss" name="platform_vendor_bliss" remote="ac" revision="typhoon" />
+    <remove-project name="platform_packages_apps_Launcher3" />
+    <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="paryal58" revision="typhoon" />
         
 </manifest> 
