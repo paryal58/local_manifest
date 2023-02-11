@@ -2,20 +2,20 @@
 <manifest>
         
     <remote  name="paryal58" fetch="https://github.com/paryal58" />
-    <remote  name="Lin" fetch="https://github.com/LineageOS" />
+    <remote  name="Lin" fetch="https://github.com/APOPHIS9283" />
     <remote  name="Ev" fetch="https://github.com/Evolution-X-Devices" />
     <remote  name="Ar" fetch="https://gitlab.com/ImSurajxD" />
     <remote name="ac" fetch="https://github.com/acastillorobles77" />
     <remote name="pe" fetch="https://github.com/PixelExperience" />
      
     <!-- Sync trees -->
-    <project path="device/oneplus/instantnoodle" name="android_device_oneplus_instantnoodle" remote="paryal58" revision="bliss-13" clone-depth="1" />
-    <project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="paryal58" revision="bliss-13" clone-depth="1" />
+    <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="paryal58" revision="tira-2" clone-depth="1" />
+    <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="paryal58" revision="tira-2" clone-depth="1" />
     <project path="vendor/oneplus/sm8250-common" name="vendor_oneplus_sm8250-common" remote="Ev" revision="tiramisu" clone-depth="1" />
-    <project path="kernel/oneplus/sm8250" name="android_kernel_oneplus_sm8250" remote="Lin" revision="lineage-20" clone-depth="1" />
-    <project path="vendor/oneplus/instantnoodle" name="vendor_oneplus_instantnoodle" remote="Ev" revision="tiramisu" clone-depth="1" />
+    <project path="kernel/oneplus/sm8250" name="Krieg_Kernel" remote="Lin" revision="upstream" clone-depth="1" />
     <project path="vendor/ih8sn" name="vendor_ih8sn" remote="Ev" revision="tiramisu" clone-depth="1" />
-    <project path="hardware/oplus" name="android_hardware_oplus" remote="Lin" revision="lineage-20" clone-depth="1" />
+    <project path="vendor/oneplus/instantnoodle" name="vendor_oneplus_instantnoodle" remote="Ev" revision="tiramisu" clone-depth="1" />
+    <project path="hardware/oplus" name="hardware_oplus" remote="Ev" revision="tiramisu" clone-depth="1" />
 
     <!-- packages -->
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="Ar" revision="master" depth="1" />
