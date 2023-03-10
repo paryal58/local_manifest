@@ -9,8 +9,8 @@
     <remote name="pe" fetch="https://github.com/PixelExperience" />
      
     <!-- Sync trees -->
-    <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="paryal58" revision="tiramisu-t" clone-depth="1" />
-    <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="paryal58" revision="tiramisu-t" clone-depth="1" />
+    <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="paryal58" revision="tiramisu" clone-depth="1" />
+    <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="paryal58" revision="tiramisu" clone-depth="1" />
     <project path="vendor/oneplus/sm8250-common" name="vendor_oneplus_sm8250-common" remote="Ev" revision="tiramisu" clone-depth="1" />
     <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="Ev" revision="tiramisu" clone-depth="1" />
     <project path="vendor/ih8sn" name="vendor_ih8sn" remote="Ev" revision="tiramisu" clone-depth="1" />
